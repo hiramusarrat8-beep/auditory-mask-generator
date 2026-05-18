@@ -10,6 +10,41 @@ This repository contains the audio-generation system only and does not include N
 
 <img width="1919" height="1010" alt="image" src="https://github.com/user-attachments/assets/75e342e2-7b9b-4ded-b2dc-e4bece311771" />
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/hiramusarrat8-beep/auditory-mask-generator.git
+```
+
+Move into the project folder:
+
+```bash
+cd auditory-mask-generator
+```
+
+Create the Conda environment:
+
+```bash
+conda env create -f environment.yml
+```
+
+Activate the environment:
+
+```bash
+conda activate amg_app
+```
+
+The environment file installs the required Python packages from `requirements.txt`.
+
+---
+
+## Run the Application
+
+```bash
+python main_gui.py
+```
 
 ## Main Features
 
@@ -88,13 +123,6 @@ Current `requirements.txt` includes:
 * `sounddevice`
 * `colorednoise`
 
-## Run
-
-Start the GUI with:
-
-```bash
-python main_gui.py
-```
 
 ## Typical Workflow
 
