@@ -1,10 +1,15 @@
 # Auditory Mask Generator
 
+> Developed by Dr. Benjamin Kop and Hira Musarrat
+
 A standalone PyQt6-based application for generating auditory masking sounds for ultrasound neuromodulation experiments.
 
 This repository contains the audio-generation system only and does not include NeuroFUS hardware communication, ultrasound stimulation control, TPO integration, or sonication parameter management.
 
----
+## Screenshots of GUI
+
+<img width="1919" height="1010" alt="image" src="https://github.com/user-attachments/assets/75e342e2-7b9b-4ded-b2dc-e4bece311771" />
+
 
 ## Main Features
 
@@ -151,3 +156,6 @@ Confirm that the system has a working output device selected. If `sounddevice` h
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
+## Citation
+
+If you use this software in research or academic work, please cite this repository https://github.com/hiramusarrat8-beep/auditory-mask-generator
