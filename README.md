@@ -1,13 +1,10 @@
 # Auditory Mask Generator
 
-This audio-only project provides a PyQt6 GUI for:
+A standalone PyQt6-based application for generating auditory masking sounds for ultrasound neuromodulation and psychoacoustic experiments.
 
-* generating auditory masking sounds
-* previewing generated audio
-* saving generated WAV files and metadata
-* saving, loading, and resetting audio presets
+This repository contains the audio-generation system only and does not include NeuroFUS hardware communication, ultrasound stimulation control, TPO integration, or sonication parameter management.
 
-This version does not connect to stimulation hardware and does not include TPO, NeuroFUS, ultrasound parameter, or sonication controls.
+---
 
 ## Main Features
 
