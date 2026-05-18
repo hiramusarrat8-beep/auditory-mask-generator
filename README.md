@@ -12,6 +12,8 @@ This repository contains the audio-generation system only and does not include N
 
 ## Installation
 
+Make sure that Anaconda or Miniconda is installed before proceeding.
+
 Clone the repository:
 
 ```bash
@@ -186,4 +188,4 @@ pip install -r requirements.txt
 ```
 ## Citation
 
-If you use this software in research or academic work, please cite this repository https://github.com/hiramusarrat8-beep/auditory-mask-generator
+If you use this GUI in research or academic work, please cite this repository https://github.com/hiramusarrat8-beep/auditory-mask-generator
