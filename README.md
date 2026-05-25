@@ -1,6 +1,6 @@
 # Auditory Mask Generator
 
-> Developed by Dr. Benjamin Kop and Hira Musarrat
+> Developed by Hira Musarrat and Dr. Benjamin Kop
 
 A standalone PyQt6-based application for generating auditory masking sounds for ultrasound neuromodulation experiments.
 
