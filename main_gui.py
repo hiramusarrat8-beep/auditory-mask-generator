@@ -1153,7 +1153,7 @@ class BasicMaskGUI(QMainWindow):
                 params["train_interval"] = 0
         params["bg_start_ms"] = 0
         params["bg_end_ms"] = float(self.bg_time_input.text()) * 1000 if self.bg_time_input.text() else -1
-        params["pulse_start_ms"] = float(self.pulse_start_input.text()) if self.pulse_start_input.text() else 0
+        params["pulse_start_ms"] = float(self.pulse_start_input.text()) if self.enable_dual_checkbox.isChecked() and self.pulse_start_input.text() else 0
         params["pulse_end_ms"] = -1  # Computed in on_generate for Combined; defaults to audio end for Matching Only
         if self.enable_dual_checkbox.isChecked():
             params["pulse_volume"] = self.pulse_volume_slider.value() / 100.0
