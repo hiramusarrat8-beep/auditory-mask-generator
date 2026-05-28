@@ -187,7 +187,7 @@ class SessionController:
             else:
                 left_gain = 1.0 - pan
                 right_gain = 1.0
-            combined = np.column_stack((combined * right_gain, combined * left_gain))
+            combined = np.column_stack((combined * left_gain, combined * right_gain))
         elif "left_pan" in params and "right_pan" in params:
             # Backward compatibility for older GUIs.
             left_pan = params["left_pan"]
