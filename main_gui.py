@@ -830,7 +830,7 @@ class BasicMaskGUI(QMainWindow):
         else:
             left_gain = 1.0 - pan
             right_gain = 1.0
-        stereo_audio = np.column_stack((combined * right_gain, combined * left_gain))
+        stereo_audio = np.column_stack((combined * left_gain, combined * right_gain))
 
         self.current_audio = stereo_audio
         self.current_bg_audio = bg_audio
