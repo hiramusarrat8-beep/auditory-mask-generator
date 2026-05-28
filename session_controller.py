@@ -52,7 +52,11 @@ class SessionController:
         if mode in ["Background Only", "Combined"] and params["bg_end_ms"] == -1:
             params["bg_end_ms"] = params["duration"] * 1000
         if mode in ["Matching Only", "Combined"] and params["pulse_end_ms"] == -1:
-            params["pulse_end_ms"] = params["duration"] * 1000
+            pulse_offset_ms = params.get("pulse_start_ms", 0) if mode == "Matching Only" else 0
+            params["pulse_end_ms"] = pulse_offset_ms + params["duration"] * 1000
+            if params["pulse_end_ms"] / 1000 > params["duration"]:
+                params["duration"] = params["pulse_end_ms"] / 1000
+
         # Extra check: Ensure ends not less than starts
         if mode in ["Background Only", "Combined"] and params["bg_start_ms"] >= params["bg_end_ms"]:
             raise ValueError("Background start must be < end")
