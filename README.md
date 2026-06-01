@@ -186,6 +186,9 @@ Confirm that the system has a working output device selected. If `sounddevice` h
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
+## Contact
+Email: hiramusarrat8@gmail.com
+
 ## Citation
 
 If you use this GUI in research or academic work, please cite this repository https://github.com/hiramusarrat8-beep/auditory-mask-generator
