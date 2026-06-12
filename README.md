@@ -4,7 +4,7 @@
 
 A standalone PyQt6-based application for generating auditory masking sounds for ultrasound neuromodulation experiments.
 
-This repository contains the audio-generation system only and does not include NeuroFUS hardware communication, ultrasound stimulation control, TPO integration, or sonication parameter management.
+This repository contains the mask-generation system only and does not include NeuroFUS hardware interaction.
 
 ## Screenshots of GUI
 
@@ -51,43 +51,42 @@ python main_gui.py
 ## Main Features
 
 * Audio generation modes:
-
-  * `Background Only`
   * `Matching Only`
+  * `Background Only`
   * `Combined`
-* Background types:
 
+* Stimulation matching audio controls:
+  * Pulse Train Duration (PTD)
+  * Pulse Repetition Interval (PRI) / Pulse Repetition Frequency (PRF)
+  * Pulse Duration (PD)
+  * optional carrier frequency
+  * ramp shape (none/linear/Tukey) and ramp length
+  * optional signal-to-noise ratio
+  * Pulse Train Repetitions (PTR)
+  * matching volume
+
+* Background types:
   * `Narrowband Noise`
   * `Colored Noise`
   * `Hybrid Ultrasound Mask`
   * `Auditory Mondrian`
-* Stimulation matching audio controls:
 
-  * pulse train duration
-  * PRI / PRF
-  * pulse duration
-  * optional carrier
-  * ramp shape and ramp length
-  * optional SNR noise
-  * pulse train repetition
-  * matching volume
 * Background audio controls:
-
   * background duration
-  * background volume
   * background ramping
+  * background volume
   * narrowband, colored noise, hybrid mask, and Mondrian settings
-* Lateralization:
 
+* Lateralization:
   * pan slider
   * left/right channel volume display
-* Plotting:
 
+* Plotting:
   * waveform view
   * FFT/spectrogram view
   * double-click popups for larger plots
-* Playback and file actions:
 
+* Playback and file actions:
   * `Generate`
   * `Play Audio`
   * `Stop Audio`
@@ -129,8 +128,8 @@ Current `requirements.txt` includes:
 ## Typical Workflow
 
 1. Choose a playback mode.
-2. Enter the sound parameters.
-3. Choose a background type if using `Background Only` or `Combined`.
+2. Choose a background type if using `Background Only` or `Combined`.
+3. Enter the sound parameters.
 4. Adjust ramping, volume, and pan/lateralization as needed.
 5. Click `Generate`.
 6. Click `Play Audio` to preview.
@@ -187,7 +186,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 ## Contact
-Email: hiramusarrat8@gmail.com
+Email: hiramusarrat8@gmail.com or benjamin.kop@outlook.com
 
 ## Citation
 
