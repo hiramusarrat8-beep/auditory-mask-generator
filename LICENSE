@@ -2,12 +2,6 @@ Research Use and Non-Commercial License
 
 Copyright (c) 2026 Benjamin Kop and Hira Musarrat
 
--------------------------------------------------------------------------
-IMPORTANT: Use of this software is governed by the End User License
-Agreement (EULA.md). Please read EULA.md before using this software.
-The following terms govern copying, modification, and redistribution.
--------------------------------------------------------------------------
-
 Permission is hereby granted to use, copy, modify, and distribute this
 software and associated documentation files for non-commercial research
 and educational purposes only, subject to the following conditions:
@@ -26,7 +20,7 @@ informs a published work, conference presentation, poster, grant application,
 or any other public dissemination must include a citation to this software
 as specified in the citation guidance on the GitHub repository from which
 this software was downloaded. Once a peer-reviewed publication describing
-this software has been published, that publication must additionally be cited
+this software has been published, that publication must be cited
 in all such works. Compliance with these citation requirements is a condition
 of use, and failure to comply constitutes a breach of this agreement.
 
@@ -56,7 +50,3 @@ and hold harmless the authors and contributors from and against any and all
 claims, liabilities, damages, losses, and expenses (including reasonable
 legal costs) arising from or related to your use of this software or any
 breach of any term of this license.
-
-6. END USER LICENSE AGREEMENT. Use of this software is additionally governed
-by the End User License Agreement (EULA), provided separately in EULA.md.
-By using this software you confirm that you have read and accept the EULA.
