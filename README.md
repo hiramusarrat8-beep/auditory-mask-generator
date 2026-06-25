@@ -10,6 +10,9 @@ This repository contains the mask-generation system only and does not include Ne
 
 <img width="1919" height="1010" alt="image" src="https://github.com/user-attachments/assets/75e342e2-7b9b-4ded-b2dc-e4bece311771" />
 
+## Tutorial video
+[![Watch the tutorial](https://img.youtube.com/vi/gU6FDSrJ-Fk/maxresdefault.jpg)](https://www.youtube.com/watch?v=gU6FDSrJ-Fk)
+
 ## Installation
 
 Make sure that Anaconda or Miniconda is installed before proceeding.
